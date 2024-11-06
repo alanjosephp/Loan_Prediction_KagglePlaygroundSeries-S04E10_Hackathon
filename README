@@ -12,3 +12,12 @@ Features: Features likely involve various financial and demographic information 
 Evaluation Metric:
 AUC-ROC: This metric is particularly useful for binary classification problems (like loan approval) where you want to assess the model's performance in distinguishing between the two classes (approved vs. not approved). The score ranges from 0 to 1, where a score closer to 1 indicates better model performance.
 
+Steps Performed in the Jupyter File:
+1. Importing Necessary Libraries
+2. Loading the Data
+3. EDA
+4. Data Preprocessing (Handling Missing Values and Outilier detection and removal)
+5. Model Building - Catgbm
+6. Model Evaluation
+7. Final Model training and Predictions
+
